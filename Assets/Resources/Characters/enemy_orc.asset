@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: enemy_orc
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterName: enemy_orc
+  visualPrefab: {fileID: 6665075354581392661, guid: df2ad5bd241a2e24cb0752c7c55be07a, type: 3}
+  icon: {fileID: 0}
+  maxHealth: 80
+  baseAttackDamage: 12
+  enemyAbilities:
+  - abilityName: Power Smash
+    abilityType: 0
+    baseCooldown: 3
+    currentCooldownTimer: 0
+    multiplier: 2
+    priority: 1
+  characterCards: []

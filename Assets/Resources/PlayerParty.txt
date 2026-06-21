@@ -1,0 +1,4 @@
+hero_warrior
+hero_mage
+hero_rogue
+hero_cleric
